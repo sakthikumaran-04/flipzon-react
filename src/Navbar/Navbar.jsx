@@ -21,7 +21,7 @@ function Navbar(){
         <h1>Flipzon</h1>
         </div>
         <nav className={State?"active":""}>
-            <p onClick={()=>{setMenu("Shop")}}><Link to='/' style={{textDecoration:"none",color:"black"}}>Shop</Link></p>
+            <p onClick={()=>{setMenu("Shop")}}><Link to='/flipzon-react' style={{textDecoration:"none",color:"black"}}>Shop</Link></p>
             <p onClick={()=>{setMenu("Laptop")}}><Link to='/laptop' style={{textDecoration:"none",color:"black"}}>Laptop</Link></p>
             <p onClick={()=>{setMenu("Mobiles")}}><Link to='/mobile' style={{textDecoration:"none",color:"black"}}>Mobiles</Link></p>
             <p onClick={()=>{setMenu("Accessories")}}><Link to='/accessories' style={{textDecoration:"none",color:"black"}}>Accessories</Link></p>
